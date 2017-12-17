@@ -56,6 +56,7 @@ group :doc do
   gem 'yard'
 end
 
+gem 'jquery-rails'
 gem 'wysiwyg-rails'
 gem 'less-rails'
 gem 'nprogress-rails'
