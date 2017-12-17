@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require turbolinks
 //= require jquery
+//= require froala_editor.min.js
 //= require_tree .
 //= require nprogress
 //= require nprogress-turbolinks
