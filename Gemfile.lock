@@ -75,13 +75,6 @@ GEM
     childprocess (0.8.0)
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.2)
-    coffee-rails (4.2.2)
-      coffee-script (>= 2.2.0)
-      railties (>= 4.0.0)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.12.2)
     commonjs (0.2.7)
     concord (0.1.5)
       adamantium (~> 0.2.0)
@@ -104,6 +97,8 @@ GEM
     faker (1.8.5)
       i18n (~> 0.9.1)
     ffi (1.9.18)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     formatador (0.2.5)
     fuubar (2.2.0)
       rspec-core (~> 3.0)
@@ -355,6 +350,9 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
+    wysiwyg-rails (2.7.3)
+      font-awesome-sass (~> 4.4, >= 4.4.0)
+      railties (>= 3.2, < 6.0)
     xpath (2.1.0)
       nokogiri (~> 1.3)
     yard (0.9.12)
@@ -369,7 +367,6 @@ DEPENDENCIES
   bullet
   byebug
   capybara (~> 2.13)
-  coffee-rails (~> 4.2)
   database_cleaner
   factory_bot_rails
   faker
@@ -407,6 +404,7 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (>= 3.3.0)
+  wysiwyg-rails
   yard
 
 BUNDLED WITH
